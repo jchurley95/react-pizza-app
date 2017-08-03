@@ -17,14 +17,14 @@ class App extends Component {
         </header>
         
         <main>
-          <SplashImage />
-          <OurStory />
-          <MenuList />
-          <LocationList />
+          <section><SplashImage /></section>
+          <section className="OurStory"><OurStory /></section>
+          <section className="Menu"><MenuList /></section>
+          <section className="Locations"><LocationList /></section>
         </main>
 
         <footer>
-          <section><Contact /></section>
+          <section className="Contact"><Contact /></section>
         </footer>
       </div>
     );

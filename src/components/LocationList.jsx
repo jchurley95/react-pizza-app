@@ -8,9 +8,10 @@ class LocationList extends Component {
             <div>
                 <div className="locations-title">Locations:</div>
                 <div className="locations">
-                {locationData.map((locationData, i) => {
-                    return <Location key={i} locationData={locationData}/>
-                })}
+                    <a name="Locations"></a>
+                    {locationData.map((locationData, i) => {
+                        return <Location key={i} locationData={locationData}/>
+                    })}
                 </div>
             </div>
         );

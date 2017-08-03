@@ -7,6 +7,7 @@ class MenuList extends Component {
         return (
             <div className="menu-container">
                 <div className="menu">
+                    <a name="Menu"></a>
                     <h1>Menu</h1>
                     {pizzaData.map((pizzaData, i) => {
                         return <MenuItem key={i} pizzaData={pizzaData}/>

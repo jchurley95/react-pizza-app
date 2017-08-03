@@ -8,11 +8,11 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <a href="">Our Story</a>
-                <a href="">Menu</a>
+                <a href="#OurStory">Our Story</a>
+                <a href="#Menu">Menu</a>
                 <h1>PIZZA-EXPRESS</h1>
-                <a href="">Locations</a>
-                <a href="">Contact</a>
+                <a href="#Locations">Locations</a>
+                <a href="#Contact">Contact</a>
             </nav>   
         );
     }
